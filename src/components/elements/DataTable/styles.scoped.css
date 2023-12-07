@@ -1,0 +1,63 @@
+.root {
+  border: 0.0625rem solid var(--primary-color);
+  border-radius: 0.25rem;
+  border-spacing: 0;
+  overflow: hidden;
+  text-align: left;
+  width: 100%;
+}
+
+.root > thead > tr {
+  background-color: var(--primary-color);
+}
+
+.root th {
+  color: var(--white-color);
+  font-size: 0.875rem;
+  font-weight: 600;
+  padding: 0.75rem 0.5rem;
+}
+
+.root td {
+  color: var(--black-color-1);
+  font-size: 0.75rem;
+  font-weight: 500;
+  padding: 0.5rem;
+  white-space: pre-wrap;
+}
+
+.root.not-found > tbody > td{
+  padding: 1rem;
+  text-align: center;
+  font-size: 0.875rem;
+  line-height: 1.0625rem;
+}
+
+.root > tbody > tr:nth-child(even) > td {
+  background-color: #F4FCE3;
+}
+
+.empty-data {
+  margin: 4rem 0 2rem;
+  text-align: center;
+}
+
+.empty-data > img {
+  width: 7.5rem;
+}
+
+.empty-data > p:first-of-type {
+  font-size: 1rem;
+  color: var(--black-color-3);
+  font-weight: 600;
+  line-height: 1.5rem;
+  margin: 1rem 0 0.5rem 0;
+}
+
+.empty-data > p:last-of-type {
+  color: var(--black-color-3);
+  font-size: 0.75rem;
+  line-height: 0.875rem;
+  font-weight: 400;
+}
+

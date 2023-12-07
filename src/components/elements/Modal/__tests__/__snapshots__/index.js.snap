@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/components/elements/Modal Content 1`] = `
+<section
+  className=""
+>
+  <img
+    alt="close"
+    onClick={null}
+    src="/assets/ic-close.svg"
+  />
+</section>
+`;

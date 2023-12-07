@@ -1,0 +1,21 @@
+.root {
+  height: 100vh;
+  overflow: hidden;
+  width: 100vw;
+}
+
+.root > section {
+  background-color: var(--white-color);
+  border-radius: 0.25rem;
+  margin: auto;
+  padding: 1.5rem;
+  position: relative;
+  transform: translateY(-50%);
+  top: 50%;
+  width: 22.5rem;
+}
+
+.root > section > img {
+  margin-bottom: 2rem;
+  width: 7.4rem;
+}

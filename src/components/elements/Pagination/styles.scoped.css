@@ -1,0 +1,43 @@
+.root {
+  align-items: center;
+  background-color: var(--white-color);
+  border-radius: 0.25rem;
+  display: flex;
+  filter: var(--drop-shadow-s);
+  gap: 0.5rem;
+  margin: auto;
+  padding: 0.5rem;
+  width: fit-content;
+}
+
+.icon {
+  height: 1.5rem;
+  width: 1.5rem;
+}
+
+.icon > img {
+  filter: brightness(0.3);
+  width: 100%;
+}
+
+.page-number {
+  font-size: 0.875rem;
+  height: 1rem;
+  min-width: 1rem;
+  text-align: center;
+}
+
+.page-number.active {
+  background-color: var(--primary-color);
+  border-radius: 50%;
+  color: #fff;
+  pointer-events: none;
+}
+
+.icon[disabled], .page-number[disabled] {
+  pointer-events: none;
+}
+
+.icon[disabled] > img {
+  filter: brightness(0.8);
+}

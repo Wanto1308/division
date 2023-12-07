@@ -1,0 +1,14 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--white-color);
+  grid-area: main;
+  overflow-y: auto;
+  padding-top: 2rem;
+  position: relative;
+}
+
+.main > *:first-child {
+  padding: 0rem 6.5625rem 0rem 2rem;
+  flex: 1;
+}

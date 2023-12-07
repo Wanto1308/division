@@ -1,0 +1,22 @@
+.root {
+  background: none;
+  border: none;
+  border-radius: 0.125rem;
+  cursor: pointer;
+  transition: background-color 300ms;
+}
+
+.root:hover {
+  background-color: var(--black-color-6);
+}
+
+.root:disabled {
+  filter: opacity(0.4);
+  pointer-events: none;
+}
+
+.root > img {
+  font-size: xx-small;
+  height: 100%;
+  margin: auto;
+}

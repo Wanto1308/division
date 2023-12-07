@@ -1,0 +1,29 @@
+.root {
+  margin: 1rem 5rem 0;
+  text-align: center;
+}
+
+.root > div {
+  display: flex;
+  justify-content: center;
+  column-gap: 2rem;
+  margin-bottom: 1rem;
+}
+
+.root > div > h4 {
+  color: var(--primary-color);
+}
+
+.root > table {
+  width: max-content;
+  margin: auto;
+}
+
+.root > section {
+  margin-top: 1.5rem;
+}
+
+.button {
+  display: flex;
+  gap: 1rem;
+}

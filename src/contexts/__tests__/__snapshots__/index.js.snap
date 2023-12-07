@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/contexts render 1`] = `
+<Provider
+  value={
+    Object {
+      "setModal": [MockFunction] {
+        "calls": Array [
+          Array [
+            null,
+          ],
+        ],
+        "results": Array [
+          Object {
+            "type": "return",
+            "value": undefined,
+          },
+        ],
+      },
+      "setOnCloseModal": [MockFunction],
+    }
+  }
+>
+  <div
+    className="modal"
+    onClick={[Function]}
+  />
+</Provider>
+`;
